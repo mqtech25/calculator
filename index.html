@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <table class="calculator">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" class="result form-control" placeholder="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="removeData()">AC</td>
+                    <td onclick="removeDataByOne()">C</td>
+                    <td class="operator">%</td>
+                    <td class="operator">÷
+                    </td>
+                </tr>
+                <tr>
+                    <td class="operand">7</td>
+                    <td class="operand">8</td>
+                    <td class="operand">9</td>
+                    <td class="operator">×
+                    </td>
+                </tr>
+                <tr>
+                    <td class="operand">4</td>
+                    <td class="operand">5</td>
+                    <td class="operand">6</td>
+                    <td class="operator">+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="operand">1</td>
+                    <td class="operand">2</td>
+                    <td class="operand">3</td>
+                    <td class="operator"> - </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="operand">0</td>
+                    <td class="operand">.</td>
+                    <td onclick="equal(this)">=</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
